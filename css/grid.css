@@ -1,0 +1,47 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows:100px 100px 200px;
+    grid-gap:10px;
+    justify-content: center;
+    grid-template-areas: 
+    "hd main main main"
+    "sd ft ft ft "
+    "dr dr dr dr";
+ padding: 10px;
+}
+
+.grid-item1{
+    grid-area: hd;
+    background-color:paleturquoise;
+    background-image: url(../picture/forest1.jpg);
+    background-size: cover;
+}
+.grid-item2{
+    grid-area: main;
+    background-color:paleturquoise;
+    background-image: url(../picture/forest2.jpg);
+    background-size: cover;
+}
+.grid-item3{
+    grid-area: sd;
+    background-color:paleturquoise;
+    background-image: url(../picture/mountain.jpg);
+    background-size: cover;
+}
+.grid-item4{
+    grid-area: ft;
+    background-color:paleturquoise;
+    background-image: url(../picture/sea.jpg);
+    background-size: cover;
+}
+.grid-item5{
+    grid-area: dr;
+    background-color:paleturquoise;
+    background-image: url(../picture/seawater.jpg);
+    background-size: cover;
+}
+.grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5{
+    border:1px solid black;
+    border-radius: 8px; 
+}
