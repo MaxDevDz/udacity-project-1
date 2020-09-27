@@ -10,14 +10,22 @@ footer a{
     color:#fff;
     padding:0px 10px 0px 10px;
 }
-footer p{
-    color:#fff;
-    padding:22px;
-}
+
 footer a:hover{
     color:blue;
 }
-footer p:hover{
+footer p{color:white;
+    padding-bottom: 5px;
+}
+
+footer .footer-information{
+    color:white;
+    padding:5px;
+    line-height: 20px;
+}
+footer ul:hover{
     cursor: pointer;
     color:orangered;
 }
+
+
