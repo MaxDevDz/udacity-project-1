@@ -23,6 +23,9 @@ section h2{
     font-style: italic;
     text-decoration: underline;
 }
+.sectionfive p{
+    font-style: italic;
+}
 .sectiontree p:hover{
     color:aqua;
 }
