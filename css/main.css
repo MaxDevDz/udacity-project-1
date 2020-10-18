@@ -15,6 +15,11 @@ section h2{
     color: red;
     padding:15px 0px 15px 0px;
 }
+.sectionone h2{
+    padding:0px 10px 0px 0px ;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
 .sectiontwo p:hover{
     color:yellowgreen;
 }
@@ -88,11 +93,10 @@ blockquote {
   blockquote p {
     display: inline;
   }
-/*author-info and socialMedia*/
+
 .socialMedia{
     float: right;
-    padding-right: 40px;
-    margin-top: 10px;
+    padding-right: 30px; 
 }
 .fa {
   padding: 20px;
